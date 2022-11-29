@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dc/dc",
+    "pages/dd/dd",
+    "pages/wd/wd",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFE4C4",
+    "navigationBarTitleText": ""
+  },
+  "tabBar": {
+    "color": "#CDC9C9",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/syq.jpg",
+        "selectedIconPath": "image/syh.jpg"
+      },
+      {
+        "pagePath": "pages/dc/dc",
+        "text": "点餐",
+        "iconPath": "image/dcq.jpg",
+        "selectedIconPath": "image/dch.jpg"
+      },
+      {
+        "pagePath": "pages/dd/dd",
+        "text": "订单",
+        "iconPath": "image/ddq.jpg",
+        "selectedIconPath": "image/ddh.jpg"
+      },
+      {
+        "pagePath": "pages/wd/wd",
+        "text": "我的",
+        "iconPath": "image/wdq.jpg",
+        "selectedIconPath": "image/wdh.jpg"
+      }
+    ]
+  }
+}
